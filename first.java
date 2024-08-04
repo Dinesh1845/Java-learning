@@ -1,10 +1,7 @@
-class first {
+class first{
     public static void main(String[] args) {
-        
-        int num1 = 10;
-        int num2 = 20;
-
-        System.out.println(num1+num2);
+       for(int i = 0; i< args.length; i++){
+        System.out.println("name "  + i + "  = " + args[i]);
+       }
     }
 }
-
