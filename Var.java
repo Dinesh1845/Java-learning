@@ -1,8 +1,11 @@
 public class Var {
     public static void main(String[] args) {
-        int num1 = 10;
+       
+        char k = 'k';
+        int num1 = 20;
         int num2 = 20;
-        int tot = num1+num2;
-        System.out.println(tot);
+        String he = "hello";
+        boolean b =true;
+
     }
 }
